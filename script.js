@@ -33,7 +33,7 @@ bloco = {
  qntPulos: 0,
  score: 0,
  
- atualiza: function() {
+  function atualiza() {
      this.velocidade += this.gravidade;
      this.y += this.velocidade;
   
